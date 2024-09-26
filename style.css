@@ -1,43 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #d9e4dd;
+    --cor-secundaria: #25942b;
+    --cor-destaque: #f0e8e8;
+}
+body {
+    background-color: rgb(24, 23, 23);
+    font-family: 'Chakra Petch', sans-serif;
 }
 
-.cabecalho {
-    background-color: #7A1C83;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
 }
 
-.cabecalho-imagem{
-    width: 20%;
+footer a {
+    color: var(--cor-principal)
 }
 
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+footer a:hover {
+    color: var(--cor-destaque);
 }
 
-.taylorswift-imagem{
-    width: 10%;
-}
-
-.taylorswift{
-    background-image: linear-gradient(#7A1C83,#E45BF0);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.taylorswift-div-conteudo{
-    width: 35%;
-}
-.taylorswift-titulo{
-    padding: 24px 0;
-}
